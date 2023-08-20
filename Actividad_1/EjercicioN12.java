@@ -6,6 +6,7 @@ public class EjercicioN12{
         salariobruto=horasmensuales*valorhora;
         retencionesT=salariobruto*retenciones;
         salarioneto= salariobruto-retencionesT;
+        //Se calculan el salario bruto, neto y retenciones y se imprime
         System.out.println("El salario bruto es: "+salariobruto);
         System.out.println("Las retenciones son: "+ retencionesT);
         System.out.println("El salario neto es: "+ salarioneto);

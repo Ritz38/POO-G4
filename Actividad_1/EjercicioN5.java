@@ -6,6 +6,7 @@ public class EjercicioN5 {
         suma=suma+x;
         x=x+(y*y);
         suma=suma+(x/y);
+        //Realizamos las operaciones del texto y imprimimos
         System.out.println("El valor de la suma es: "+ suma);
     }
 }
