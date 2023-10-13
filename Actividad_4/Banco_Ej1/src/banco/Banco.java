@@ -5,19 +5,12 @@
 package banco;
 
 import java.util.*;
-/**
- *
- * @author Alejandro
- * 
- */
+
 public class Banco {
 
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void main(String[] args) {
-        // TODO code application logic here
-        
+        try{
         Scanner input = new Scanner(System.in);
         System.out.println("Cuenta de ahorros");
         System.out.println("Ingrese saldo inicial= ");
@@ -34,6 +27,10 @@ public class Banco {
         cuenta1.Retirar(cantidadRetirar);
         cuenta1.extractoMensual();
         cuenta1.imprimir();
+        }
+        catch(java.util.InputMismatchException e){
+            System.out.println("Valor(es) invalido(s)");
+        }
     }
     
 }
