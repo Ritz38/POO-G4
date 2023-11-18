@@ -6,6 +6,9 @@ public class Esfera extends javax.swing.JFrame {
      */
     public Esfera() {
         initComponents();
+        setTitle("Esfera");
+        setLocationRelativeTo(null);
+        setResizable(false);
     }
     private void initComponents() {
 

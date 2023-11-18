@@ -6,6 +6,9 @@ public class piramide extends javax.swing.JFrame {
      */
     public piramide() {
         initComponents();
+        setTitle("Piramide");
+        setLocationRelativeTo(null);
+        setResizable(false);
     }
 
     /**

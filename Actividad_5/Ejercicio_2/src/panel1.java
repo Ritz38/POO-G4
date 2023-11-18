@@ -6,6 +6,9 @@ public class panel1 extends javax.swing.JFrame {
      */
     public panel1() {
         initComponents();
+        setTitle("Figuras");
+        setLocationRelativeTo(null);
+        setResizable(false);
     }
 
     /**

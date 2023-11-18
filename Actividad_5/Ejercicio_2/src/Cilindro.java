@@ -5,6 +5,9 @@ public class Cilindro extends javax.swing.JFrame {
      */
     public Cilindro() {
         initComponents();
+        setTitle("Cilindro");
+        setLocationRelativeTo(null);
+        setResizable(false);
     }
 
     /**

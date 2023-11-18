@@ -3,8 +3,11 @@ public class panel extends javax.swing.JFrame {
 
     public panel() {
         initComponents();
+        setTitle("Notas");
+        setLocationRelativeTo(null);
+        setResizable(false);
     }
-
+    
     private void initComponents() {
 
         camponota1 = new javax.swing.JTextField();
