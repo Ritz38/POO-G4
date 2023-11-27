@@ -3,10 +3,7 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.lang.NumberFormatException;
 import javax.swing.JOptionPane;
-/**
- *
- * @author juanp
- */
+
 public class ContactoAmigos extends javax.swing.JFrame {
 
     /**
